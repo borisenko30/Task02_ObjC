@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		56CFEC071EBB23FE00FCE193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC061EBB23FE00FCE193 /* main.m */; };
+		56CFEC0F1EBB244800FCE193 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC0E1EBB244800FCE193 /* Person.m */; };
+		56CFEC121EBB24ED00FCE193 /* MalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC111EBB24ED00FCE193 /* MalePerson.m */; };
+		56CFEC151EBB24FE00FCE193 /* FemalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC141EBB24FE00FCE193 /* FemalePerson.m */; };
+		56CFEC171EBB2A6A00FCE193 /* PersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC161EBB2A6A00FCE193 /* PersonTest.m */; };
+		56CFEC1A1EBB2F1F00FCE193 /* NSObject+ObjectCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,15 @@
 /* Begin PBXFileReference section */
 		56CFEC031EBB23FE00FCE193 /* Task02_ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Task02_ObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CFEC061EBB23FE00FCE193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56CFEC0D1EBB244800FCE193 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		56CFEC0E1EBB244800FCE193 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		56CFEC101EBB24ED00FCE193 /* MalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalePerson.h; sourceTree = "<group>"; };
+		56CFEC111EBB24ED00FCE193 /* MalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MalePerson.m; sourceTree = "<group>"; };
+		56CFEC131EBB24FE00FCE193 /* FemalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FemalePerson.h; sourceTree = "<group>"; };
+		56CFEC141EBB24FE00FCE193 /* FemalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FemalePerson.m; sourceTree = "<group>"; };
+		56CFEC161EBB2A6A00FCE193 /* PersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTest.m; sourceTree = "<group>"; };
+		56CFEC181EBB2F1F00FCE193 /* NSObject+ObjectCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectCategory.h"; sourceTree = "<group>"; };
+		56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,15 @@
 			isa = PBXGroup;
 			children = (
 				56CFEC061EBB23FE00FCE193 /* main.m */,
+				56CFEC0D1EBB244800FCE193 /* Person.h */,
+				56CFEC0E1EBB244800FCE193 /* Person.m */,
+				56CFEC101EBB24ED00FCE193 /* MalePerson.h */,
+				56CFEC161EBB2A6A00FCE193 /* PersonTest.m */,
+				56CFEC111EBB24ED00FCE193 /* MalePerson.m */,
+				56CFEC131EBB24FE00FCE193 /* FemalePerson.h */,
+				56CFEC181EBB2F1F00FCE193 /* NSObject+ObjectCategory.h */,
+				56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */,
+				56CFEC141EBB24FE00FCE193 /* FemalePerson.m */,
 			);
 			path = Task02_ObjC;
 			sourceTree = "<group>";
@@ -119,6 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CFEC1A1EBB2F1F00FCE193 /* NSObject+ObjectCategory.m in Sources */,
+				56CFEC121EBB24ED00FCE193 /* MalePerson.m in Sources */,
+				56CFEC171EBB2A6A00FCE193 /* PersonTest.m in Sources */,
+				56CFEC0F1EBB244800FCE193 /* Person.m in Sources */,
+				56CFEC151EBB24FE00FCE193 /* FemalePerson.m in Sources */,
 				56CFEC071EBB23FE00FCE193 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +162,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -181,7 +209,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;

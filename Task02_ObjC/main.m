@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MalePerson.h"
+#import "FemalePerson.h"
+#import "PersonTest.m"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        test();
     }
     return 0;
 }
