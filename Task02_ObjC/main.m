@@ -13,8 +13,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         test();
     }
+    
     return 0;
 }

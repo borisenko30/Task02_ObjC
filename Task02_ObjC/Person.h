@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 @interface Person : NSObject
 @property (assign) NSString *name;
 @property (assign) NSNumber *weight;
@@ -19,6 +19,24 @@
 - (void) removeLastChild;
 - (void) removeChildAtIndex:(NSUInteger) index;
 - (void) sayHi;
+- (void) performGenderSpecificOperation;
+
+@end
+*/
+
+@interface Person : NSObject
+@property (nonatomic, copy) NSString    *name;
+@property (nonatomic, copy) NSNumber    *weight;
+@property NSInteger                     age;
+
+@property (nonatomic, readonly, copy) NSArray        *children;
+
+- (instancetype)initWithName:(NSString *)name weight:(NSNumber *)weight age:(NSUInteger)age;
+- (NSArray *)initArrayWithObjectsCount:(NSUInteger) count;
+- (void)addChild:(Person *)child;
+- (void)removeLastChild;
+- (void)removeChildAtIndex:(NSUInteger)index;
+- (void)sayHi;
 - (void) performGenderSpecificOperation;
 
 @end

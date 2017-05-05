@@ -13,6 +13,7 @@
 		56CFEC151EBB24FE00FCE193 /* FemalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC141EBB24FE00FCE193 /* FemalePerson.m */; };
 		56CFEC171EBB2A6A00FCE193 /* PersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC161EBB2A6A00FCE193 /* PersonTest.m */; };
 		56CFEC1A1EBB2F1F00FCE193 /* NSObject+ObjectCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */; };
+		56D2540E1EBC845E00D71B5A /* NSObject+IDPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D2540D1EBC845E00D71B5A /* NSObject+IDPCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,8 @@
 		56CFEC161EBB2A6A00FCE193 /* PersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTest.m; sourceTree = "<group>"; };
 		56CFEC181EBB2F1F00FCE193 /* NSObject+ObjectCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectCategory.h"; sourceTree = "<group>"; };
 		56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectCategory.m"; sourceTree = "<group>"; };
+		56D2540C1EBC845E00D71B5A /* NSObject+IDPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IDPCategory.h"; sourceTree = "<group>"; };
+		56D2540D1EBC845E00D71B5A /* NSObject+IDPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IDPCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				56CFEC101EBB24ED00FCE193 /* MalePerson.h */,
 				56CFEC161EBB2A6A00FCE193 /* PersonTest.m */,
 				56CFEC111EBB24ED00FCE193 /* MalePerson.m */,
+				56D2540C1EBC845E00D71B5A /* NSObject+IDPCategory.h */,
+				56D2540D1EBC845E00D71B5A /* NSObject+IDPCategory.m */,
 				56CFEC131EBB24FE00FCE193 /* FemalePerson.h */,
 				56CFEC181EBB2F1F00FCE193 /* NSObject+ObjectCategory.h */,
 				56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */,
@@ -145,6 +150,7 @@
 				56CFEC1A1EBB2F1F00FCE193 /* NSObject+ObjectCategory.m in Sources */,
 				56CFEC121EBB24ED00FCE193 /* MalePerson.m in Sources */,
 				56CFEC171EBB2A6A00FCE193 /* PersonTest.m in Sources */,
+				56D2540E1EBC845E00D71B5A /* NSObject+IDPCategory.m in Sources */,
 				56CFEC0F1EBB244800FCE193 /* Person.m in Sources */,
 				56CFEC151EBB24FE00FCE193 /* FemalePerson.m in Sources */,
 				56CFEC071EBB23FE00FCE193 /* main.m in Sources */,
@@ -274,6 +280,7 @@
 				56CFEC0C1EBB23FE00FCE193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

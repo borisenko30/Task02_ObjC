@@ -11,12 +11,17 @@
 @implementation NSObject (ObjectCategory)
 
 
-+ (instancetype)object:(Class) objClass {
-    return [[[[objClass class] alloc] init] autorelease];
++ (instancetype)object {
+    return [[[self alloc] init] autorelease];
 }
 
-+ (instancetype)objectsWithCount:(NSInteger)count factoryBlock(^void)(){
++ (instancetype)objectsWithCount:(NSInteger)count factoryBlock:(id(^)(void))block{
+    NSMutableArray *arr = [NSMutableArray object];
+    for (int i = 0; i < count; i++) {
+        [arr addObject:block()];
+    }
     
+    return (NSObject *)arr;
 }
 
 @end

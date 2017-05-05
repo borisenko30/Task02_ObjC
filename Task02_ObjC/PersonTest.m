@@ -9,20 +9,19 @@
 #import <Foundation/Foundation.h>
 #import "MalePerson.h"
 #import "FemalePerson.h"
+#import "NSObject+ObjectCategory.h"
+#import "NSObject+IDPCategory.h"
 
 static void test() {
-    NSArray *people = [[NSArray alloc] initWithObjects:
-                       [NSObject object:[MalePerson class]],
-                       [NSObject object:[FemalePerson class]],
-                       [[MalePerson new] autorelease],
-                       [[MalePerson new] autorelease],
-                       [[FemalePerson new] autorelease],
-                       [[FemalePerson new] autorelease],
-                       [[FemalePerson new] autorelease],
-                       [[MalePerson new] autorelease],
-                       [[MalePerson new] autorelease],
-                       [[FemalePerson new] autorelease],
-                       nil];
+    
+    NSMutableArray *people = [NSObject objectsWithCount:10 factoryBlock: ^{
+        if ([NSObject randBoolean]) {
+            return (Person *)[MalePerson object];
+        } else {
+            return (Person *)[FemalePerson object];
+        }
+    }];
+    
     for (Person *p in people) {
         [p performGenderSpecificOperation];
     }

@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 @interface NSObject (ObjectCategory)
 
-+ (instancetype)object:(Class) objClass;
-+ (instancetype)objectsWithCount:(NSInteger)count factoryBlock:(^void)();
++ (instancetype)object;
++ (instancetype)objectsWithCount:(NSInteger)count factoryBlock:(Person * (^)(void))block;
 
 @end
