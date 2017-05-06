@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		56CFEC071EBB23FE00FCE193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC061EBB23FE00FCE193 /* main.m */; };
-		56CFEC0F1EBB244800FCE193 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC0E1EBB244800FCE193 /* Person.m */; };
-		56CFEC121EBB24ED00FCE193 /* MalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC111EBB24ED00FCE193 /* MalePerson.m */; };
-		56CFEC151EBB24FE00FCE193 /* FemalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC141EBB24FE00FCE193 /* FemalePerson.m */; };
-		56CFEC171EBB2A6A00FCE193 /* PersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC161EBB2A6A00FCE193 /* PersonTest.m */; };
-		56CFEC1A1EBB2F1F00FCE193 /* NSObject+ObjectCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */; };
-		56D2540E1EBC845E00D71B5A /* NSObject+IDPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D2540D1EBC845E00D71B5A /* NSObject+IDPCategory.m */; };
+		56CFEC121EBB24ED00FCE193 /* IDPMalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFEC111EBB24ED00FCE193 /* IDPMalePerson.m */; };
+		84D9920A1EBE54FA00D6372F /* IDPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992021EBE54FA00D6372F /* IDPConstants.m */; };
+		84D9920B1EBE54FA00D6372F /* IDPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992051EBE54FA00D6372F /* IDPPerson.m */; };
+		84D9920C1EBE54FA00D6372F /* IDPPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992071EBE54FA00D6372F /* IDPPersonTests.m */; };
+		84D9920D1EBE54FA00D6372F /* IDPRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992091EBE54FA00D6372F /* IDPRandom.m */; };
+		84D992101EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */; };
+		84D992131EBE551800D6372F /* NSObject+IDPFactoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */; };
+		84D9921D1EBE5FED00D6372F /* IDPFemalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,17 +33,23 @@
 /* Begin PBXFileReference section */
 		56CFEC031EBB23FE00FCE193 /* Task02_ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Task02_ObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CFEC061EBB23FE00FCE193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		56CFEC0D1EBB244800FCE193 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		56CFEC0E1EBB244800FCE193 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		56CFEC101EBB24ED00FCE193 /* MalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalePerson.h; sourceTree = "<group>"; };
-		56CFEC111EBB24ED00FCE193 /* MalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MalePerson.m; sourceTree = "<group>"; };
-		56CFEC131EBB24FE00FCE193 /* FemalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FemalePerson.h; sourceTree = "<group>"; };
-		56CFEC141EBB24FE00FCE193 /* FemalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FemalePerson.m; sourceTree = "<group>"; };
-		56CFEC161EBB2A6A00FCE193 /* PersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTest.m; sourceTree = "<group>"; };
-		56CFEC181EBB2F1F00FCE193 /* NSObject+ObjectCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectCategory.h"; sourceTree = "<group>"; };
-		56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectCategory.m"; sourceTree = "<group>"; };
-		56D2540C1EBC845E00D71B5A /* NSObject+IDPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IDPCategory.h"; sourceTree = "<group>"; };
-		56D2540D1EBC845E00D71B5A /* NSObject+IDPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IDPCategory.m"; sourceTree = "<group>"; };
+		56CFEC101EBB24ED00FCE193 /* IDPMalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPMalePerson.h; sourceTree = "<group>"; };
+		56CFEC111EBB24ED00FCE193 /* IDPMalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPMalePerson.m; sourceTree = "<group>"; };
+		84D992011EBE54FA00D6372F /* IDPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPConstants.h; sourceTree = "<group>"; };
+		84D992021EBE54FA00D6372F /* IDPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPConstants.m; sourceTree = "<group>"; };
+		84D992041EBE54FA00D6372F /* IDPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPPerson.h; sourceTree = "<group>"; };
+		84D992051EBE54FA00D6372F /* IDPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPPerson.m; sourceTree = "<group>"; };
+		84D992061EBE54FA00D6372F /* IDPPersonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPPersonTests.h; sourceTree = "<group>"; };
+		84D992071EBE54FA00D6372F /* IDPPersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPPersonTests.m; sourceTree = "<group>"; };
+		84D992081EBE54FA00D6372F /* IDPRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPRandom.h; sourceTree = "<group>"; };
+		84D992091EBE54FA00D6372F /* IDPRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPRandom.m; sourceTree = "<group>"; };
+		84D9920E1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IDPArrayOfObjects.h"; sourceTree = "<group>"; };
+		84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IDPArrayOfObjects.m"; sourceTree = "<group>"; };
+		84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IDPFactoryObject.h"; sourceTree = "<group>"; };
+		84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IDPFactoryObject.m"; sourceTree = "<group>"; };
+		84D992141EBE599100D6372F /* IDPImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPImportFiles.h; sourceTree = "<group>"; };
+		84D9921B1EBE5FED00D6372F /* IDPFemalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPFemalePerson.h; sourceTree = "<group>"; };
+		84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPFemalePerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,20 +82,50 @@
 		56CFEC051EBB23FE00FCE193 /* Task02_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				84D991FF1EBE53D000D6372F /* AuxiliaryLib */,
+				84D991FE1EBE53BB00D6372F /* Sources */,
+				84D992001EBE53E100D6372F /* Tests */,
 				56CFEC061EBB23FE00FCE193 /* main.m */,
-				56CFEC0D1EBB244800FCE193 /* Person.h */,
-				56CFEC0E1EBB244800FCE193 /* Person.m */,
-				56CFEC101EBB24ED00FCE193 /* MalePerson.h */,
-				56CFEC161EBB2A6A00FCE193 /* PersonTest.m */,
-				56CFEC111EBB24ED00FCE193 /* MalePerson.m */,
-				56D2540C1EBC845E00D71B5A /* NSObject+IDPCategory.h */,
-				56D2540D1EBC845E00D71B5A /* NSObject+IDPCategory.m */,
-				56CFEC131EBB24FE00FCE193 /* FemalePerson.h */,
-				56CFEC181EBB2F1F00FCE193 /* NSObject+ObjectCategory.h */,
-				56CFEC191EBB2F1F00FCE193 /* NSObject+ObjectCategory.m */,
-				56CFEC141EBB24FE00FCE193 /* FemalePerson.m */,
+				84D992141EBE599100D6372F /* IDPImportFiles.h */,
 			);
 			path = Task02_ObjC;
+			sourceTree = "<group>";
+		};
+		84D991FE1EBE53BB00D6372F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84D992041EBE54FA00D6372F /* IDPPerson.h */,
+				84D992051EBE54FA00D6372F /* IDPPerson.m */,
+				56CFEC101EBB24ED00FCE193 /* IDPMalePerson.h */,
+				56CFEC111EBB24ED00FCE193 /* IDPMalePerson.m */,
+				84D9921B1EBE5FED00D6372F /* IDPFemalePerson.h */,
+				84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */,
+				84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */,
+				84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */,
+				84D9920E1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.h */,
+				84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		84D991FF1EBE53D000D6372F /* AuxiliaryLib */ = {
+			isa = PBXGroup;
+			children = (
+				84D992011EBE54FA00D6372F /* IDPConstants.h */,
+				84D992021EBE54FA00D6372F /* IDPConstants.m */,
+				84D992081EBE54FA00D6372F /* IDPRandom.h */,
+				84D992091EBE54FA00D6372F /* IDPRandom.m */,
+			);
+			name = AuxiliaryLib;
+			sourceTree = "<group>";
+		};
+		84D992001EBE53E100D6372F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84D992061EBE54FA00D6372F /* IDPPersonTests.h */,
+				84D992071EBE54FA00D6372F /* IDPPersonTests.m */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,13 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56CFEC1A1EBB2F1F00FCE193 /* NSObject+ObjectCategory.m in Sources */,
-				56CFEC121EBB24ED00FCE193 /* MalePerson.m in Sources */,
-				56CFEC171EBB2A6A00FCE193 /* PersonTest.m in Sources */,
-				56D2540E1EBC845E00D71B5A /* NSObject+IDPCategory.m in Sources */,
-				56CFEC0F1EBB244800FCE193 /* Person.m in Sources */,
-				56CFEC151EBB24FE00FCE193 /* FemalePerson.m in Sources */,
+				56CFEC121EBB24ED00FCE193 /* IDPMalePerson.m in Sources */,
+				84D9920A1EBE54FA00D6372F /* IDPConstants.m in Sources */,
+				84D992101EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m in Sources */,
+				84D9920C1EBE54FA00D6372F /* IDPPersonTests.m in Sources */,
+				84D9920D1EBE54FA00D6372F /* IDPRandom.m in Sources */,
+				84D9921D1EBE5FED00D6372F /* IDPFemalePerson.m in Sources */,
 				56CFEC071EBB23FE00FCE193 /* main.m in Sources */,
+				84D9920B1EBE54FA00D6372F /* IDPPerson.m in Sources */,
+				84D992131EBE551800D6372F /* NSObject+IDPFactoryObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +290,7 @@
 		56CFEC0B1EBB23FE00FCE193 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -257,6 +298,7 @@
 		56CFEC0C1EBB23FE00FCE193 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

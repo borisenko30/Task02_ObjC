@@ -6,9 +6,9 @@
 //  Copyright © 2017 Student003. All rights reserved.
 //
 
-#import "MalePerson.h"
+#import "IDPMalePerson.h"
 
-@implementation MalePerson
+@implementation IDPMalePerson
 
 - (void)goToWar {
     NSLog(@"The war never ends...");

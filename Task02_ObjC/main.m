@@ -6,14 +6,11 @@
 //  Copyright © 2017 Student003. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "MalePerson.h"
-#import "FemalePerson.h"
-#import "PersonTest.m"
+#import "IDPPersonTests.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        test();
+        IDPPersonTest();
     }
     
     return 0;

@@ -6,9 +6,9 @@
 //  Copyright © 2017 Student003. All rights reserved.
 //
 
-#import "Person.h"
+#import "IDPPerson.h"
 
-@interface MalePerson : Person
+@interface IDPMalePerson : IDPPerson
 
 - (void)goToWar;
 
