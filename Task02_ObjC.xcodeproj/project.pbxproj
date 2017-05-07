@@ -82,9 +82,7 @@
 		56CFEC051EBB23FE00FCE193 /* Task02_ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				84D991FF1EBE53D000D6372F /* AuxiliaryLib */,
 				84D991FE1EBE53BB00D6372F /* Sources */,
-				84D992001EBE53E100D6372F /* Tests */,
 				56CFEC061EBB23FE00FCE193 /* main.m */,
 				84D992141EBE599100D6372F /* IDPImportFiles.h */,
 			);
@@ -94,16 +92,15 @@
 		84D991FE1EBE53BB00D6372F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				84D992001EBE53E100D6372F /* Tests */,
+				84D9922A1EBF5DB900D6372F /* Extensions */,
+				84D991FF1EBE53D000D6372F /* AuxiliaryLib */,
 				84D992041EBE54FA00D6372F /* IDPPerson.h */,
 				84D992051EBE54FA00D6372F /* IDPPerson.m */,
 				56CFEC101EBB24ED00FCE193 /* IDPMalePerson.h */,
 				56CFEC111EBB24ED00FCE193 /* IDPMalePerson.m */,
 				84D9921B1EBE5FED00D6372F /* IDPFemalePerson.h */,
 				84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */,
-				84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */,
-				84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */,
-				84D9920E1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.h */,
-				84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -126,6 +123,17 @@
 				84D992071EBE54FA00D6372F /* IDPPersonTests.m */,
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		84D9922A1EBF5DB900D6372F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */,
+				84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */,
+				84D9920E1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.h */,
+				84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

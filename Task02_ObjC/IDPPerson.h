@@ -11,7 +11,7 @@
 @interface IDPPerson : NSObject
 @property (nonatomic, copy)   NSString   *name;
 @property (nonatomic, copy)   NSNumber   *weight;
-@property (nonatomic, assign) NSInteger  age;
+@property (nonatomic, assign) NSUInteger  age;
 
 @property (nonatomic, readonly, copy) NSArray *children;
 
