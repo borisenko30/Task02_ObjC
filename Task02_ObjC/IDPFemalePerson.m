@@ -10,7 +10,7 @@
 
 @implementation IDPFemalePerson
 
-- (IDPPerson *)childCreate {
+- (IDPPerson *)child {
     IDPPerson *person = [IDPPerson object];
     NSLog(@"A new person was born!");
     
@@ -18,7 +18,7 @@
 }
 
 - (void)performGenderSpecificOperation {
-    [self childCreate];
+    [self child];
 }
 
 @end

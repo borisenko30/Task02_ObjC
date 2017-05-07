@@ -10,7 +10,7 @@
 
 @interface IDPPerson ()
 
-@property (nonatomic, retain)NSMutableArray *mutableChildren;
+@property (nonatomic, retain) NSMutableArray *mutableChildren;
 
 @end
 
@@ -30,8 +30,8 @@
     self = [super init];
     if (self) {
         self.name = names[IDPRandom([names count])];
-        self.weight = [NSNumber numberWithInteger:IDPRandomWithRange(NSMakeRange(kIDPMinWeight, kIDPWeightRange))];
-        self.age = IDPRandom(kIDPMaxAge);
+        self.weight = [NSNumber numberWithInteger:IDPRandomWithRange(NSMakeRange(kIDPPersonMinWeight, kIDPPersonWeightRange))];
+        self.age = IDPRandom(kIDPPersonMaxAge);
         self.mutableChildren = [NSMutableArray array];
     }
     

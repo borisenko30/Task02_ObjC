@@ -8,7 +8,6 @@
 
 #import "IDPPersonTests.h"
 
-
 void IDPPersonTest() {
     NSArray *childrenArray = [NSArray arrayOfObjectsWithCount:kIDPMaxArrayLength
                                                  factoryBlock:^ {

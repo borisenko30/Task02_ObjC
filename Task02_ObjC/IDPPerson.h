@@ -9,11 +9,11 @@
 #import "IDPImportFiles.h"
 
 @interface IDPPerson : NSObject
-@property (nonatomic, copy)NSString     *name;
-@property (nonatomic, copy)NSNumber     *weight;
-@property (nonatomic, assign)NSInteger  age;
+@property (nonatomic, copy)   NSString   *name;
+@property (nonatomic, copy)   NSNumber   *weight;
+@property (nonatomic, assign) NSInteger  age;
 
-@property (nonatomic, readonly, copy)NSArray    *children;
+@property (nonatomic, readonly, copy) NSArray *children;
 
 - (void)addChild:(IDPPerson *)child;
 - (void)removeLastChild;

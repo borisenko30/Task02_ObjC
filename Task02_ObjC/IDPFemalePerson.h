@@ -10,6 +10,6 @@
 
 @interface IDPFemalePerson : IDPPerson
 
-- (IDPPerson *)childCreate;
+- (IDPPerson *)child;
 
 @end
