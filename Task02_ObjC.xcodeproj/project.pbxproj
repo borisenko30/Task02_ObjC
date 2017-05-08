@@ -47,7 +47,6 @@
 		84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IDPArrayOfObjects.m"; sourceTree = "<group>"; };
 		84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IDPFactoryObject.h"; sourceTree = "<group>"; };
 		84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IDPFactoryObject.m"; sourceTree = "<group>"; };
-		84D992141EBE599100D6372F /* IDPImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPImportFiles.h; sourceTree = "<group>"; };
 		84D9921B1EBE5FED00D6372F /* IDPFemalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPFemalePerson.h; sourceTree = "<group>"; };
 		84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPFemalePerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +83,6 @@
 			children = (
 				84D991FE1EBE53BB00D6372F /* Sources */,
 				56CFEC061EBB23FE00FCE193 /* main.m */,
-				84D992141EBE599100D6372F /* IDPImportFiles.h */,
 			);
 			path = Task02_ObjC;
 			sourceTree = "<group>";

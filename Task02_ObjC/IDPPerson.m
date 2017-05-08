@@ -7,6 +7,9 @@
 //
 
 #import "IDPPerson.h"
+#import "IDPConstants.h"
+#import "IDPRandom.h"
+#import "NSObject+IDPFactoryObject.h"
 
 @interface IDPPerson ()
 
@@ -51,10 +54,7 @@
 }
 
 - (void)removeLastChild {
-    NSMutableArray *children = self.mutableChildren;
-    if ([children count]) {
-        [children removeLastObject];
-    }
+        [self.mutableChildren removeLastObject];
 }
 
 - (void)removeChildAtIndex:(NSUInteger)index {

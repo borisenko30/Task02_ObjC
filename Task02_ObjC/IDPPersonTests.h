@@ -6,8 +6,4 @@
 //  Copyright (c) 2017 Admin. All rights reserved.
 //
 
-#import "IDPImportFiles.h"
-#import "IDPMalePerson.h"
-#import "IDPFemalePerson.h"
-
 extern void IDPPersonTest();

@@ -7,6 +7,7 @@
 //
 
 #import "IDPFemalePerson.h"
+#import "NSObject+IDPFactoryObject.h"
 
 @implementation IDPFemalePerson
 
