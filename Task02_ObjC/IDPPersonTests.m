@@ -10,17 +10,19 @@
 #import "IDPPerson.h"
 #import "IDPMalePerson.h"
 #import "IDPFemalePerson.h"
+
 #import "IDPConstants.h"
 #import "IDPRandom.h"
-#import "NSArray+IDPArrayOfObjects.h"
-#import "NSObject+IDPFactoryObject.h"
+
+#import "NSArray+IDPExtensions.h"
+#import "NSObject+IDPExtensions.h"
 
 void IDPPersonTest() {
-    NSArray *childrenArray = [NSArray arrayOfObjectsWithCount:kIDPMaxArrayLength
-                                                 factoryBlock:^ {
-                                                     return IDPRandomBool() ? [IDPMalePerson object] : [IDPFemalePerson object];
-                                                 }];
-        for (IDPPerson *person in childrenArray) {
-            [person performGenderSpecificOperation];
-        }
+    NSArray *children = [NSArray objectsWithCount:IDPMaxArrayLength
+                                    factoryBlock:^ {
+                                        return IDPRandomBool() ? [IDPMalePerson object] : [IDPFemalePerson object];
+                                    }];
+    for (IDPPerson *person in children) {
+        [person performGenderSpecificOperation];
+    }
 }

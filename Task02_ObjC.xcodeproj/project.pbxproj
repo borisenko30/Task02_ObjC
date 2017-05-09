@@ -13,8 +13,8 @@
 		84D9920B1EBE54FA00D6372F /* IDPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992051EBE54FA00D6372F /* IDPPerson.m */; };
 		84D9920C1EBE54FA00D6372F /* IDPPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992071EBE54FA00D6372F /* IDPPersonTests.m */; };
 		84D9920D1EBE54FA00D6372F /* IDPRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992091EBE54FA00D6372F /* IDPRandom.m */; };
-		84D992101EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */; };
-		84D992131EBE551800D6372F /* NSObject+IDPFactoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */; };
+		84D992101EBE550F00D6372F /* NSArray+IDPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9920F1EBE550F00D6372F /* NSArray+IDPExtensions.m */; };
+		84D992131EBE551800D6372F /* NSObject+IDPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D992121EBE551800D6372F /* NSObject+IDPExtensions.m */; };
 		84D9921D1EBE5FED00D6372F /* IDPFemalePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +43,10 @@
 		84D992071EBE54FA00D6372F /* IDPPersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPPersonTests.m; sourceTree = "<group>"; };
 		84D992081EBE54FA00D6372F /* IDPRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPRandom.h; sourceTree = "<group>"; };
 		84D992091EBE54FA00D6372F /* IDPRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPRandom.m; sourceTree = "<group>"; };
-		84D9920E1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IDPArrayOfObjects.h"; sourceTree = "<group>"; };
-		84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IDPArrayOfObjects.m"; sourceTree = "<group>"; };
-		84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IDPFactoryObject.h"; sourceTree = "<group>"; };
-		84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IDPFactoryObject.m"; sourceTree = "<group>"; };
+		84D9920E1EBE550F00D6372F /* NSArray+IDPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IDPExtensions.h"; sourceTree = "<group>"; };
+		84D9920F1EBE550F00D6372F /* NSArray+IDPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IDPExtensions.m"; sourceTree = "<group>"; };
+		84D992111EBE551800D6372F /* NSObject+IDPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IDPExtensions.h"; sourceTree = "<group>"; };
+		84D992121EBE551800D6372F /* NSObject+IDPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IDPExtensions.m"; sourceTree = "<group>"; };
 		84D9921B1EBE5FED00D6372F /* IDPFemalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPFemalePerson.h; sourceTree = "<group>"; };
 		84D9921C1EBE5FED00D6372F /* IDPFemalePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPFemalePerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,10 +126,10 @@
 		84D9922A1EBF5DB900D6372F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				84D992111EBE551800D6372F /* NSObject+IDPFactoryObject.h */,
-				84D992121EBE551800D6372F /* NSObject+IDPFactoryObject.m */,
-				84D9920E1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.h */,
-				84D9920F1EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m */,
+				84D992111EBE551800D6372F /* NSObject+IDPExtensions.h */,
+				84D992121EBE551800D6372F /* NSObject+IDPExtensions.m */,
+				84D9920E1EBE550F00D6372F /* NSArray+IDPExtensions.h */,
+				84D9920F1EBE550F00D6372F /* NSArray+IDPExtensions.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -193,13 +193,13 @@
 			files = (
 				56CFEC121EBB24ED00FCE193 /* IDPMalePerson.m in Sources */,
 				84D9920A1EBE54FA00D6372F /* IDPConstants.m in Sources */,
-				84D992101EBE550F00D6372F /* NSArray+IDPArrayOfObjects.m in Sources */,
+				84D992101EBE550F00D6372F /* NSArray+IDPExtensions.m in Sources */,
 				84D9920C1EBE54FA00D6372F /* IDPPersonTests.m in Sources */,
 				84D9920D1EBE54FA00D6372F /* IDPRandom.m in Sources */,
 				84D9921D1EBE5FED00D6372F /* IDPFemalePerson.m in Sources */,
 				56CFEC071EBB23FE00FCE193 /* main.m in Sources */,
 				84D9920B1EBE54FA00D6372F /* IDPPerson.m in Sources */,
-				84D992131EBE551800D6372F /* NSObject+IDPFactoryObject.m in Sources */,
+				84D992131EBE551800D6372F /* NSObject+IDPExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

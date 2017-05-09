@@ -9,15 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface IDPPerson : NSObject
-@property (nonatomic, copy)   NSString   *name;
-@property (nonatomic, copy)   NSNumber   *weight;
-@property (nonatomic, assign) NSUInteger  age;
+@property (nonatomic, copy)     NSString    *name;
+@property (nonatomic, copy)     NSNumber    *weight;
+@property (nonatomic, assign)   NSUInteger  age;
 
-@property (nonatomic, readonly, copy) NSArray *children;
+@property (nonatomic, readonly, copy) NSArray    *children;
 
 - (void)addChild:(IDPPerson *)child;
-- (void)removeLastChild;
-- (void)removeChildAtIndex:(NSUInteger)index;
+- (void)removeChild:(IDPPerson *)child;
 - (void)sayHi;
 - (void)performGenderSpecificOperation;
 

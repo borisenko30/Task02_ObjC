@@ -1,5 +1,5 @@
 //
-//  NSArray+IDPExtension.h
+//  NSObject+IDPExtension.h
 //  Task01_ObjC
 //
 //  Created by Student003 on 5/5/17.
@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (IDPArrayOfObjects)
+@interface NSObject (IDPExtensions)
 
-+ (instancetype)arrayOfObjectsWithCount:(NSInteger)count factoryBlock:(id (^)(void))block;
++ (instancetype)object;
++ (NSArray *)objectsWithCount:(NSUInteger)count;
 
 @end
+
