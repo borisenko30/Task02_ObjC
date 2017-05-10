@@ -22,6 +22,7 @@ void IDPPersonTest() {
                                     factoryBlock:^ {
                                         return IDPRandomBool() ? [IDPMalePerson object] : [IDPFemalePerson object];
                                     }];
+    
     for (IDPPerson *person in children) {
         [person performGenderSpecificOperation];
     }

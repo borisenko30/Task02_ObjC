@@ -13,4 +13,4 @@
 constantInit(NSUInteger, IDPMaxArrayLength, 10)
 constantInit(NSUInteger, IDPPersonMaxAge, 100)
 
-NSRange const IDPWeightRange = {50, 100};
+NSRange const IDPWeightRange = { 50, 100 };
