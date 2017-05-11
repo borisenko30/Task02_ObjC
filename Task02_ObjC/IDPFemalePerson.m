@@ -7,15 +7,15 @@
 //
 
 #import "IDPFemalePerson.h"
+
 #import "NSObject+IDPExtensions.h"
 
 @implementation IDPFemalePerson
 
 - (IDPPerson *)child {
-    IDPPerson *person = [IDPPerson object];
     NSLog(@"A new person was born!");
-    
-    return person;
+
+    return [IDPPerson object];
 }
 
 - (void)performGenderSpecificOperation {

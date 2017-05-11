@@ -31,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5627EF901EC44292004B62A9 /* IDPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDPMacros.h; sourceTree = "<group>"; };
 		56CFEC031EBB23FE00FCE193 /* Task02_ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Task02_ObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		56CFEC061EBB23FE00FCE193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56CFEC101EBB24ED00FCE193 /* IDPMalePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPMalePerson.h; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 		84D991FF1EBE53D000D6372F /* AuxiliaryLib */ = {
 			isa = PBXGroup;
 			children = (
+				5627EF901EC44292004B62A9 /* IDPMacros.h */,
 				84D992011EBE54FA00D6372F /* IDPConstants.h */,
 				84D992021EBE54FA00D6372F /* IDPConstants.m */,
 				84D992081EBE54FA00D6372F /* IDPRandom.h */,

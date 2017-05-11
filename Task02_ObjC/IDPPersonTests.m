@@ -7,6 +7,7 @@
 //
 
 #import "IDPPersonTests.h"
+
 #import "IDPPerson.h"
 #import "IDPMalePerson.h"
 #import "IDPFemalePerson.h"
@@ -23,7 +24,7 @@ void IDPPersonTest() {
                                         return IDPRandomBool() ? [IDPMalePerson object] : [IDPFemalePerson object];
                                     }];
     
-    for (IDPPerson *person in children) {
-        [person performGenderSpecificOperation];
+    for (IDPPerson *child in children) {
+        [child performGenderSpecificOperation];
     }
 }
